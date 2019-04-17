@@ -9,3 +9,9 @@
 #
 # We recommend using the bang functions (`insert!`, `update!`
 # and so on) as they will fail if something goes wrong.
+
+alias Blog.Content
+
+Content.create_post(%{title: "Absinthe Tutorial", body: "Yo dawg..."})
+
+Content.create_post(%{title: "Sith Skills", body: "Step one: kill all of the younglings"})
